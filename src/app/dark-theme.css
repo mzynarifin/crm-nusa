@@ -1,0 +1,187 @@
+html.dark,
+html.dark body,
+html.dark .app-shell,
+html.dark .login-page,
+html.dark .login-form-wrap {
+  background: var(--canvas);
+  color: var(--ink);
+}
+
+html.dark .attention-count,
+html.dark .kanban-count,
+html.dark .result-count,
+html.dark .role-chip,
+html.dark .service-tabs button > span:not(.live-pill),
+html.dark .source-breakdown i,
+html.dark .status-badge {
+  background: #263638;
+  color: #d0dfdd;
+}
+
+html.dark .attention-amber,
+html.dark .live-pill,
+html.dark .status-prospect,
+html.dark .status-qualified,
+html.dark .status-pending-approval,
+html.dark .status-menunggu-pembayaran,
+html.dark .status-menunggu {
+  background: #3c321f;
+  color: #edc779;
+}
+
+html.dark .attention-coral,
+html.dark .status-rejected,
+html.dark .status-lost,
+html.dark .reject-action,
+html.dark .form-error {
+  background: #3d2929;
+  color: #f1aaa4;
+}
+
+html.dark .attention-blue,
+html.dark .status-new,
+html.dark .status-baru,
+html.dark .status-contacted,
+html.dark .status-diproses,
+html.dark .status-sent {
+  background: #22334b;
+  color: #b3cbf4;
+}
+
+html.dark .attention-symbol,
+html.dark .metric-icon,
+html.dark .help-icon,
+html.dark .product-icon,
+html.dark .role-card-icon,
+html.dark .access-banner > span,
+html.dark .login-icon,
+html.dark .empty-state > span {
+  background: #203b39;
+  color: #83d4c8;
+}
+
+html.dark .metric-icon.orange {
+  background: #3d3024;
+  color: #efb779;
+}
+
+html.dark .metric-icon.blue {
+  background: #23364c;
+  color: #aac8ff;
+}
+
+html.dark .metric-icon.purple {
+  background: #332a43;
+  color: #c6b2ee;
+}
+
+html.dark .attention-amber {
+  background: #3c321f;
+  color: #efc976;
+}
+
+html.dark .attention-coral {
+  background: #3d2929;
+  color: #efaaa3;
+}
+
+html.dark .attention-blue {
+  background: #22334b;
+  color: #a9c7f4;
+}
+
+html.dark .status-active,
+html.dark .status-won,
+html.dark .status-accepted,
+html.dark .status-approved,
+html.dark .status-lunas,
+html.dark .status-selesai,
+html.dark .approve-action {
+  background: #1f3b31;
+  color: #9cd9bd;
+}
+
+html.dark .status-inactive {
+  background: #293638;
+  color: #bac7c7;
+}
+
+html.dark .status-belum-dibayar,
+html.dark .status-sebagian-dibayar,
+html.dark .status-ditutup {
+  background: #293638;
+  color: #bac7c7;
+}
+
+html.dark .approve-action:hover {
+  background: #284a3c;
+}
+
+html.dark .reject-action:hover {
+  background: #4b3030;
+}
+
+html.dark .add-deal:hover,
+html.dark .icon-button:hover {
+  background: #263638;
+  color: var(--ink);
+}
+
+html.dark .toggle-switch {
+  background: #405151;
+}
+
+html.dark .toggle-switch.toggle-on {
+  background: var(--teal);
+}
+
+html.dark .integration-card,
+html.dark .quote-meta-grid,
+html.dark .quote-line-items,
+html.dark .quote-grand-total {
+  background: #1d2d2f;
+  border-color: var(--line);
+  color: #c3d0cf;
+}
+
+html.dark .integration-state {
+  background: #3c321f;
+  color: #edc779;
+}
+
+html.dark .integration-state.connected {
+  background: #1f3b31;
+  color: #9cd9bd;
+}
+
+html.dark .login-form h2,
+html.dark .login-form label,
+html.dark .login-form .login-note {
+  color: var(--ink);
+}
+
+html.dark .login-form .form-error {
+  border: 1px solid #704444;
+}
+
+html.dark .global-search kbd,
+html.dark .skip-link {
+  background: #263638;
+  border-color: var(--line);
+  color: #d0dfdd;
+}
+
+html.dark .page-footer {
+  color: #aabbbb;
+  border-color: var(--line);
+}
+
+html.dark button.calendar-cell.calendar-selected {
+  background: #1b3935;
+  color: #c8e9e4;
+  box-shadow: inset 0 0 0 1px #36776e;
+}
+
+html.dark .notification-button i {
+  border-color: var(--surface);
+}
