@@ -30,9 +30,9 @@ export default function LoginPage() {
       const { data: profile } = currentUser.user ? await client.from("profiles").select("role").eq("id", currentUser.user.id).maybeSingle() : { data: null };
       const needsMfa = profile?.role === "admin" || profile?.role === "manager";
       const { data: assurance } = await client.auth.mfa.getAuthenticatorAssuranceLevel();
-      if (needsMfa && assurance.currentLevel !== "aal2") {
+      if (needsMfa && assurance?.currentLevel !== "aal2") {
         const { data: factors } = await client.auth.mfa.listFactors();
-        const factor = factors.totp.find((item) => item.status === "verified");
+        const factor = factors?.totp.find((item) => item.status === "verified");
         if (!factor) {
           const { data: enrollment, error: enrollmentError } = await client.auth.mfa.enroll({ factorType: "totp", friendlyName: `Nusa CRM Authenticator ${Date.now()}` });
           if (enrollmentError || !enrollment?.totp) {
